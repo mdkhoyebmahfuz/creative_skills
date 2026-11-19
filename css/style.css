@@ -1,0 +1,157 @@
+/* ----all common css start here----- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+/* ----all common css end here----- */
+/* ---nav css start here--- */
+
+#nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+.menu ul li a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #9D9D9D;
+    position: relative;
+    transition: all linear 0.3s;
+    font-family: "Poppins", sans-serif;
+}
+.menu ul li a::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #F6A51B;
+    bottom: -2px;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all linear 0.3s;
+    border-radius: 1px;
+
+}
+.menu ul li a:hover{
+    color: #F6A51B;
+}
+.menu ul li a:hover::after{
+    width: 50%;
+}
+.nav_button button{
+    background-color: #F6A51B;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 24px ;
+    border: 2px solid #F6A51B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+}
+.nav_button button:hover{
+    background: transparent;
+    color: #F6A51B;
+    border: 2px solid #F6A51B;
+
+}
+/* ---nav css end here--- */
+
+
+
+
+#banner{
+    position: relative;
+    padding: 212px 0;
+    background-image: url(../image/banner\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerleft h1{
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 90px;
+    color: #414141;
+    width: 580px;
+    margin-top: 168px;
+    font-family: "Poppins", sans-serif;
+}
+.bannerleft p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #9D9D9D;
+    width: 580px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.banner_btn button{
+    background-color: #F6A51B;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 24px ;
+    border: 2px solid #F6A51B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+}
+.banner_btn button:hover{
+    background: transparent;
+    color: #F6A51B;
+    border: 2px solid #F6A51B;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
