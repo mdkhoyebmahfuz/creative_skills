@@ -1,157 +1,243 @@
 /* ----all common css start here----- */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-ol,ul{
-    list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
 }
 /* ----all common css end here----- */
 /* ---nav css start here--- */
 
-#nav{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+#nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
-
-
-.menu ul li a{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #9D9D9D;
-    position: relative;
-    transition: all linear 0.3s;
-    font-family: "Poppins", sans-serif;
+.menu ul li a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #9d9d9d;
+  position: relative;
+  transition: all linear 0.3s;
+  font-family: "Poppins", sans-serif;
 }
-.menu ul li a::after{
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 3px;
-    background-color: #F6A51B;
-    bottom: -2px;
-    left: 50%;
-    transform: translate(-50%);
-    transition: all linear 0.3s;
-    border-radius: 1px;
-
+.menu ul li a::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: #f6a51b;
+  bottom: -2px;
+  left: 50%;
+  transform: translate(-50%);
+  transition: all linear 0.3s;
+  border-radius: 1px;
 }
-.menu ul li a:hover{
-    color: #F6A51B;
+.menu ul li a:hover {
+  color: #f6a51b;
 }
-.menu ul li a:hover::after{
-    width: 50%;
+.menu ul li a:hover::after {
+  width: 50%;
 }
-.nav_button button{
-    background-color: #F6A51B;
-    border-radius: 20px;
-    color: #fff;
-    padding: 10px 24px ;
-    border: 2px solid #F6A51B;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    font-family: "Poppins", sans-serif;
+.nav_button button {
+  background-color: #f6a51b;
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px 24px;
+  border: 2px solid #f6a51b;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
 }
-.nav_button button:hover{
-    background: transparent;
-    color: #F6A51B;
-    border: 2px solid #F6A51B;
-
+.nav_button button:hover {
+  background: transparent;
+  color: #f6a51b;
+  border: 2px solid #f6a51b;
 }
 /* ---nav css end here--- */
 
+/* ----banner css start here---- */
 
-
-
-#banner{
-    position: relative;
-    padding: 212px 0;
-    background-image: url(../image/banner\ \(2\).png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#banner {
+  position: relative;
+  padding: 212px 0;
+  background-image: url(../image/banner\ \(2\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.bannerleft h1{
-    font-weight: 600;
-    font-size: 70px;
-    line-height: 90px;
-    color: #414141;
-    width: 580px;
-    margin-top: 168px;
+.bannerleft h1 {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 90px;
+  color: #414141;
+  width: 580px;
+  margin-top: 168px;
+  font-family: "Poppins", sans-serif;
+}
+.bannerleft p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #9d9d9d;
+  width: 580px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.banner_btn button {
+  background-color: #f6a51b;
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px 24px;
+  border: 2px solid #f6a51b;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
+}
+.banner_btn button:hover {
+  background: transparent;
+  color: #f6a51b;
+  border: 2px solid #f6a51b;
+}
+
+/* ----banner css end here---- */
+
+/* ---about part css start here */
+#aboutpart {
+  margin-top: 150px;
+}
+.aboutheading h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 80px;
+  color: #414141;
+}
+.aboutheading h2 span {
+  color: #f6a51b;
+}
+.aboutheading p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #9d9d9d;
+  margin-top: 50px;
+}
+
+.aboutleft h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 80px;
+  color: #414141;
+  margin-top: 73px;
+}
+.aboutleft p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #9d9d9d;
+  margin-top: 20px;
+}
+/* .aboutleft ul li p{
     font-family: "Poppins", sans-serif;
-}
-.bannerleft p{
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    color: #9D9D9D;
-    width: 580px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-
-.banner_btn button{
-    background-color: #F6A51B;
-    border-radius: 20px;
-    color: #fff;
-    padding: 10px 24px ;
-    border: 2px solid #F6A51B;
-    font-weight: 500;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 27px;
+    color: #9D9D9D;
+    margin-bottom: 20px;
+} */
+.aboutleft ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* ---about part css end here */
+/* -----our cocerns css start here------ */
+#cocerns{
+    margin-top: 150px;
+}
+.concernsheading h3{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: #414141;
+  position: relative;
+}
+.concernsheading h3::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -10px;
+    width: 150px;
+    height: 10px;
+    background-color: #F6A51B;
+    border-radius: 26px;
+}
+.corcernscard{
+    width: 240px;
+    background-color: transparent;
+    border: 1px solid #9D9D9D;
+    border-radius: 15px;
+    padding: 32px 26px 20px 26px;
+}
+.cor_card_img img{
+    object-fit: cover;
+}
+.cor_content p{
     font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9D9D9D;
+    margin-bottom: 32px;
+    margin-top: 22px;
 }
-.banner_btn button:hover{
-    background: transparent;
-    color: #F6A51B;
-    border: 2px solid #F6A51B;
-
+.cor_btn{
+    display: flex;
+    justify-content: end;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.cor_btn button {
+  background-color: #f6a51b;
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px 24px;
+  border: 2px solid #f6a51b;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
+}
+.cor_btn button:hover {
+  background: transparent;
+  color: #f6a51b;
+  border: 2px solid #f6a51b;
+}
+/* -----our cocerns css end here------ */
